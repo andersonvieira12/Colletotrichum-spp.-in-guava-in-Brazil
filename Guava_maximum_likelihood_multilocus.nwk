@@ -1,0 +1,424 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=322;
+	taxlabels
+	01
+	05
+	07
+	110
+	117
+	118
+	12
+	120
+	122
+	129
+	134
+	149
+	15
+	191
+	192
+	193
+	196
+	197
+	201
+	202
+	203
+	204
+	205
+	206
+	21
+	210
+	211
+	212
+	215
+	217
+	222
+	228
+	23
+	230
+	237
+	24
+	242
+	245
+	248PT
+	249PT
+	250PT
+	251
+	251PT
+	252
+	252PT
+	253
+	254
+	255
+	256
+	257
+	258
+	263
+	264
+	265
+	269
+	270
+	278
+	279
+	280
+	281
+	283
+	284
+	285
+	29
+	30
+	32
+	36
+	38
+	39
+	40
+	41
+	43
+	44
+	46
+	47
+	49
+	50
+	55
+	8
+	80
+	9
+	'C. abscissum CBS134727'
+	'C. abscissum COAD1876'
+	'C. abscissum COAD1877 T'
+	'C. abscissum IMI504890'
+	'C. abscissum OCO ARC. 4'
+	'C. acerbum CBS128530 T'
+	'C. acutatum CBS112996 T'
+	'C. acutatum CBS127545'
+	'C. aenigma ICMP18608 T'
+	'C. aeschynomenes ATCC201874 T'
+	'C. alatae ICMP17919 T'
+	'C. annellatum CBS129826 T'
+	'C. aotearoa ICMP18537 T'
+	'C. arboricola CBS144795 T'
+	'C. arecicola CGMCC3 19667 T'
+	'C. artocarpicola MFLUCC18 1167 T'
+	'C. arxii CBS132511 T'
+	'C. asianum CMM3747'
+	'C. asianum CMM3758'
+	'C. asianum CMM3793'
+	'C. asianum ICMP18580 T'
+	'C. asianum IMI313839'
+	'C. asianum MTCC11676'
+	'C. asianum MTCC11678'
+	'C. asianum MTCC11680'
+	'C. australe CBS116478 T'
+	'C. australe CBS131325'
+	'C. australianum UMC002 T'
+	'C. beeveri CBS128527 T'
+	'C. boninense CBS123755 T'
+	'C. brasiliense CBS128501 T'
+	'C. brassicicola CBS101059 T'
+	'C. brisbanense CBS292 67 T'
+	'C. bromeliacearum LC0951 T'
+	'C. cairnsense BRIP63643'
+	'C. cairnsense RIP63642 T'
+	'C. camelliae CGMCC3 14925 T'
+	'C. camelliae japonicae CGMCC3 18118 T'
+	'C. carthami SAPA100011 T'
+	'C. catinaense CBS142417 T'
+	'C. cattleyicola CBS170 49 T'
+	'C. chamaedoreae LC13868 T'
+	'C. chongqingense CS0612 T'
+	'C. chrysanthemi IMI364540 T'
+	'C. chrysophilum 8395'
+	'C. chrysophilum CMM4268 T'
+	'C. chrysophilum Coll919'
+	'C. chrysophilum E183'
+	'C. cigarro ICMP18539'
+	'C. citricola CBS134228 T'
+	'C. clidemiae ICMP18658 T'
+	'C. clivicola CBS125375 T'
+	'C. cliviigenum CBS146825'
+	'C. cobbittiense BRIP66219a'
+	'C. colombiense CBS129818 T'
+	'C. condaoense CBS134299'
+	'C. conoides CAUG17 T'
+	'C. constrictum CBS128504 T'
+	'C. cordylinicola MFLUCC090551 T'
+	'C. cosmi CBS853 73 T'
+	'C. costaricense CBS211 78'
+	'C. costaricense CBS330 75 T'
+	'C. cuscutae IMI304802 T'
+	'C. cymbidicola IMI347923 T'
+	'C. dacrycarpi CBS130241 T'
+	'C. doitungense MFLU14 0128'
+	'C. dracaenigenum MFLUCC190430 T'
+	'C. endophytica MFLUCC130418 T'
+	'C. eriobotryae GLMC1935 T'
+	'C. feijoicola CBS144633'
+	'C. fioriniae CBS128517 T'
+	'C. fructicola 1087'
+	'C. fructicola 3589'
+	'C. fructicola 7574'
+	'C. fructicola CBS125397 T'
+	'C. fructicola Coll1126'
+	'C. fructicola Coll996'
+	'C. fructicola CollP1'
+	'C. fructicola GM567'
+	'C. fructicola ICMP18581 T'
+	'C. fructivorum CBS133125 T'
+	'C. gigasporum BCC38879'
+	'C. gigasporum CBS101881'
+	'C. gigasporum CBS109355'
+	'C. gigasporum CBS124947'
+	'C. gigasporum CBS125385'
+	'C. gigasporum CBS125387'
+	'C. gigasporum CBS125475'
+	'C. gigasporum CBS125476'
+	'C. gigasporum CBS125730'
+	'C. gigasporum CBS125731'
+	'C. gigasporum CBS132881'
+	'C. gigasporum CBS1332667 T'
+	'C. gigasporum CBS159 75'
+	'C. gigasporum CBS181 52'
+	'C. gigasporum MFLUCC100192'
+	'C. gloeosporioides CAUG22'
+	'C. gloeosporioides CAUG23'
+	'C. gloeosporioides CAUG24'
+	'C. gloeosporioides CAUG25'
+	'C. gloeosporioides CAUG29'
+	'C. gloeosporioides CAUG3'
+	'C. gloeosporioides CMM3279'
+	'C. gloeosporioides Coll20'
+	'C. gloeosporioides Coll914'
+	'C. gloeosporioides IMI356878 T'
+	'C. godetiae CBS133 44 T'
+	'C. grevileae CBS132879 T'
+	'C. grossum CAUG7 T'
+	'C. guajave IMI350839 T'
+	'C. hebeiense JZB330028 T'
+	'C. helleniense CBS142418 T'
+	'C. henanense LF238 T'
+	'C. hippeastri CBS125376 T'
+	'C. horii ICMP10492 T'
+	'C. indonesiense CBS127551 T'
+	'C. javanense CBS144963 T'
+	'C. jiangxiense LF687 T'
+	'C. jishouense GZU HJ2 G3 T'
+	'C. johnstonii CBS128532 T'
+	'C. kahawae ICMP17816 T'
+	'C. karstii CBS111998'
+	'C. karstii CBS112762'
+	'C. karstii CBS126532'
+	'C. karstii CBS127597 T'
+	'C. karstii COUFAL0003'
+	'C. karstii COUFAL0004'
+	'C. karstii COUFAL0005'
+	'C. karstii COUFAL0006'
+	'C. kinghornii CBS198 35 T'
+	'C. kniphofiae CBS143496 T'
+	'C. laticiphilum CBS112989 T'
+	'C. lauri MFLUCC17 0205 T'
+	'C. ledongense CGMCC3 18888 T'
+	'C. limetticola CBS114 14 T'
+	'C. limonicola CBS142410 T'
+	'C. lupini CBS109225 T'
+	'C. lupini CBS109226'
+	'C. magnisporum CBS398 84 T'
+	'C. makassarense CBS143664 T'
+	'C. melonis CBS134730'
+	'C. melonis CBS159 84 T'
+	'C. melonis Col20'
+	'C. miaoliense NTUCC20 001 1 T'
+	'C. monsterae LC13871 T'
+	'C. musae CBS116870 T'
+	'C. musae CMM4422'
+	'C. musae CMM4423'
+	'C. musae CMM4445'
+	'C. musicola CBS132885 T'
+	'C. novae zelandiae CBS128505 T'
+	'C. noveboracense AFKH109 T'
+	'C. nupharicola CBS469 96'
+	'C. nupharicola CBS470 96 T'
+	'C. nupharicola CBS472 96'
+	'C. nymphaeae CBS515 78 T'
+	'C. nymphaeae IMI370491'
+	'C. oncidii CBS129828 T'
+	'C. orchidearum CBS135131 T'
+	'C. paranaense CBS134728'
+	'C. paranaense CBS134729 T'
+	'C. paranaense IMI384185'
+	'C. parsonsiae CBS128525 T'
+	'C. paxtonii IMI165753 T'
+	'C. pereskiae COAD2995 T'
+	'C. petchii CBS378 94 T'
+	'C. philodendricola CGMCC3 19290 T'
+	'C. phormii CBS118194 T'
+	'C. phyllanthi CBS175 67 T'
+	'C. piperis CPC21195 T'
+	'C. plurivorum CBS125474 T'
+	'C. proteae CBS132882 T'
+	'C. pseudoboninense CGMCC3 19755 T'
+	'C. pseudomajus CBS571 88 T'
+	'C. pseudotheobromicola MFLUCC181602'
+	'C. psidii CBS145 29 T'
+	'C. pyricola CBS128531 T'
+	'C. queenslandicum ICMP1778 T'
+	'C. radicis CBS529 93 T'
+	'C. reniforme LC8230 T'
+	'C. rhexiae Coll1026 T'
+	'C. rhombiforme CBS129953 T'
+	'C. roseum CBS145754 T'
+	'C. salicis CBS607 94 T'
+	'C. salsolae CBS119296'
+	'C. salsolae ICMP19051 T'
+	'C. scovillei CBS126529 T'
+	'C. serranegrense COAD2100 T'
+	'C. siamense CBS133123'
+	'C. siamense CMM3777'
+	'C. siamense CMM4244'
+	'C. siamense CMM4247'
+	'C. siamense CMM4248'
+	'C. siamense ICMP18578 T'
+	'C. simmondsii CBS 122122 T'
+	'C. sloanei IMI364297 T'
+	'C. sojae ATCC11871'
+	'C. sojae ATCC62257 T'
+	'C. sojae CBS128510'
+	'C. sojae CBS134 87'
+	'C. sojae CBS181 81'
+	'C. sojae CBS182 81'
+	'C. subvariabile C13876 T'
+	'C. syngoniicola LC8894 T'
+	'C. syzygicola MFLUCC10 0621'
+	'C. syzygicola MFLUCC10 0624 T'
+	'C. syzygicola MFLUCC10 0630'
+	'C. syzygicola MFLUCC10 0652'
+	'C. tainanense CBS143666 T'
+	'C. tainanense UOM1119'
+	'C. tamarilloi CBS129814 T'
+	'C. tamarilloi CBS129956'
+	'C. temperatum Coll883 T'
+	'C. theobromicola CBS124945 T'
+	'C. theobromicola CBS142 31'
+	'C. theobromicola CMM4242'
+	'C. theobromicola COUFAL0037'
+	'C. theobromicola COUFAL0039'
+	'C. theobromicola COUFAL2200'
+	'C. theobromicola GJSB1160843'
+	'C. ti ICMP4832 T'
+	'C. torulosum CBS128544 T'
+	'C. tropicale CBS124949 T'
+	'C. tropicale CMM2999'
+	'C. tropicale CMM4243'
+	'C. variabile LC13875 T'
+	'C. vietnamense CBS125478 T'
+	'C. viniferum CAUG27'
+	'C. viniferum GZAAS5 08601 T'
+	'C. viniferum GZAAS5 08608'
+	'C. vittalense CBS181 82 T'
+	'C. walleri CBS125472 T'
+	'C. wanningense CGMCC3 18936 T'
+	'C. watphraense MFLU14 0123'
+	'C. xanthorrhoeae CBS127831 T'
+	'C. yulongense CFCC50819 T'
+	DF01
+	DF13
+	DF15
+	DF18
+	DF3
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (('C. karstii COUFAL0004':1.0E-6,('C. karstii COUFAL0006':1.0E-6,'C. karstii COUFAL0003':1.0E-6)[&label=24]:1.0E-6)[&label=10]:1.0E-6,((278:1.0E-6,((('C. karstii CBS112762':1.0E-6,('C. karstii CBS111998':1.0E-6,'C. karstii CBS127597 T':1.0E-6)[&label=25]:1.0E-6)[&label=75]:8.28E-4,'C. karstii CBS126532':1.0E-6)[&label=56]:1.0E-6,((('C. watphraense MFLU14 0123':0.018769,('C. camelliae japonicae CGMCC3 18118 T':0.004261,'C. citricola CBS134228 T':0.002568)[&label=100]:0.004681)[&label=35]:0.003489,'C. phyllanthi CBS175 67 T':0.005041)[&label=19]:1.0E-6,((('C. petchii CBS378 94 T':0.018617,(((('C. limonicola CBS142410 T':0.030084,('C. catinaense CBS142417 T':0.008033,'C. novae zelandiae CBS128505 T':0.001726)[&label=100]:4.91E-4)[&label=100]:0.033666,((((('C. monsterae LC13871 T':0.050034,(('C. piperis CPC21195 T':0.020226,('C. cattleyicola CBS170 49 T':0.005942,((('C. sojae ATCC11871':1.0E-6,('C. sojae CBS181 81':1.0E-6,((('C. sojae CBS134 87':1.0E-6,'C. sojae CBS128510':1.0E-6)[&label=28]:1.0E-6,'C. sojae CBS182 81':1.0E-6)[&label=12]:1.0E-6,'C. sojae ATCC62257 T':1.0E-6)[&label=14]:1.0E-6)[&label=25]:1.0E-6)[&label=97]:8.3E-4,264:0.003592)[&label=92]:0.005698,('C. orchidearum CBS135131 T':0.003404,(('C. musicola CBS132885 T':0.010161,('C. vittalense CBS181 82 T':0.004944,(('C. reniforme LC8230 T':7.98E-4,'C. clivicola CBS125375 T':0.00167)[&label=45]:1.0E-6,'C. plurivorum CBS125474 T':0.003353)[&label=98]:0.005408)[&label=36]:8.73E-4)[&label=38]:0.001507,'C. pereskiae COAD2995 T':0.024081)[&label=36]:1.0E-6)[&label=52]:0.001536)[&label=38]:1.0E-6)[&label=66]:0.003681)[&label=36]:0.002588,'C. syngoniicola LC8894 T':0.006714)[&label=35]:0.008239)[&label=100]:0.236261,((((('C. magnisporum CBS398 84 T':0.021467,'C. jishouense GZU HJ2 G3 T':0.018852)[&label=86]:0.008843,('C. arxii CBS132511 T':0.03196,'C. serranegrense COAD2100 T':0.032813)[&label=76]:0.009368)[&label=83]:0.01135,(((257:0.031814,(('C. gigasporum CBS125475':0.008954,('C. gigasporum CBS159 75':0.005876,'C. gigasporum CBS132881':0.003662)[&label=97]:0.006928)[&label=40]:6.91E-4,(((((('C. gigasporum MFLUCC100192':1.0E-6,'C. gigasporum CBS125387':1.0E-6)[&label=59]:0.001913,('C. gigasporum BCC38879':0.001324,(38:1.0E-6,'C. gigasporum CBS125385':6.54E-4)[&label=74]:6.49E-4)[&label=66]:6.97E-4)[&label=26]:6.41E-4,'C. gigasporum CBS125476':0.003896)[&label=60]:6.98E-4,(263:1.0E-6,'C. gigasporum CBS109355':1.0E-6)[&label=99]:0.002599)[&label=10]:1.0E-6,('C. gigasporum CBS1332667 T':0.002643,(('C. gigasporum CBS124947':6.55E-4,'C. gigasporum CBS125731':6.57E-4)[&label=75]:0.001298,('C. gigasporum CBS181 52':7.76E-4,'C. gigasporum CBS101881':0.014135)[&label=59]:0.00409)[&label=30]:9.0E-6)[&label=53]:0.002645)[&label=49]:0.001083,'C. gigasporum CBS125730':0.006173)[&label=88]:0.00282)[&label=100]:0.016728)[&label=100]:0.033256,'C. pseudomajus CBS571 88 T':0.029987)[&label=94]:0.019829,('C. vietnamense CBS125478 T':0.026786,('C. variabile LC13875 T':0.013324,'C. subvariabile C13876 T':0.012807)[&label=100]:0.013087)[&label=86]:0.008212)[&label=57]:0.003666)[&label=49]:0.01173,'C. radicis CBS529 93 T':0.051496)[&label=100]:0.07045,(((('C. yulongense CFCC50819 T':0.00981,'C. henanense LF238 T':1.0E-6)[&label=98]:0.027873,(('C. cobbittiense BRIP66219a':0.006805,'C. ti ICMP4832 T':1.0E-6)[&label=100]:0.006433,('C. aotearoa ICMP18537 T':0.013501,(((('C. dracaenigenum MFLUCC190430 T':0.004385,(((('C. jiangxiense LF687 T':1.0E-6,('C. kahawae ICMP17816 T':0.001285,'C. cigarro ICMP18539':1.0E-6)[&label=55]:1.0E-6)[&label=48]:5.03E-4,('C. fructivorum CBS133125 T':5.37E-4,'C. rhexiae Coll1026 T':0.001076)[&label=74]:9.61E-4)[&label=25]:1.0E-6,'C. helleniense CBS142418 T':0.005471)[&label=56]:0.001252,'C. temperatum Coll883 T':0.002614)[&label=55]:0.001054)[&label=41]:5.58E-4,('C. camelliae CGMCC3 14925 T':0.003348,'C. clidemiae ICMP18658 T':0.005642)[&label=59]:0.001247)[&label=70]:0.00213,'C. psidii CBS145 29 T':0.009368)[&label=78]:0.001563,('C. cordylinicola MFLUCC090551 T':0.00627,('C. arecicola CGMCC3 19667 T':0.004027,('C. ledongense CGMCC3 18888 T':0.001072,(222:0.005332,(('C. syzygicola MFLUCC10 0652':1.0E-6,('C. syzygicola MFLUCC10 0621':1.0E-6,'C. syzygicola MFLUCC10 0624 T':1.0E-6)[&label=19]:1.0E-6)[&label=19]:1.0E-6,'C. syzygicola MFLUCC10 0630':1.0E-6)[&label=97]:0.002636)[&label=44]:0.001018)[&label=70]:0.002013)[&label=50]:4.65E-4)[&label=98]:0.004166)[&label=85]:0.003313)[&label=89]:0.001973)[&label=91]:0.011856)[&label=94]:0.01069,(('C. alatae ICMP17919 T':0.051729,('C. proteae CBS132882 T':0.032231,(('C. gloeosporioides CAUG25':0.00251,((('C. gloeosporioides Coll20':5.51E-4,('C. gloeosporioides CAUG22':0.001651,('C. gloeosporioides CAUG24':1.0E-6,'C. gloeosporioides CAUG23':0.002489)[&label=96]:0.001664)[&label=90]:0.003089)[&label=19]:5.66E-4,('C. gloeosporioides CMM3279':1.0E-6,(('C. gloeosporioides Coll914':1.0E-6,(46:1.0E-6,('C. gloeosporioides IMI356878 T':1.0E-6,283:1.0E-6)[&label=50]:1.0E-6)[&label=96]:1.0E-6)[&label=52]:1.0E-6,'C. gloeosporioides CAUG3':1.0E-6)[&label=46]:1.0E-6)[&label=38]:7.69E-4)[&label=72]:0.003965,'C. gloeosporioides CAUG29':8.22E-4)[&label=56]:9.56E-4)[&label=100]:0.016574,((((29:1.0E-6,'C. aeschynomenes ATCC201874 T':0.004052)[&label=100]:0.009408,((((((204:0.001548,(50:1.0E-6,((23:1.0E-6,(((21:1.0E-6,(196:8.9E-4,('C. chrysophilum CMM4268 T':3.63E-4,('C. chrysophilum Coll919':1.0E-6,('C. chrysophilum 8395':1.0E-6,'C. chrysophilum E183':3.55E-4)[&label=50]:1.0E-6)[&label=46]:1.0E-6)[&label=34]:1.0E-6)[&label=12]:1.0E-6)[&label=5]:1.0E-6,47:1.0E-6)[&label=9]:1.0E-6,(201:1.0E-6,05:4.46E-4)[&label=20]:1.0E-6)[&label=33]:1.0E-6)[&label=26]:1.22E-4,44:0.002571)[&label=20]:5.54E-4)[&label=17]:1.0E-6)[&label=74]:0.001348,((((('C. fructicola ICMP18581 T':8.52E-4,'C. fructicola CBS125397 T':4.29E-4)[&label=31]:1.0E-6,(280:1.0E-6,(DF18:1.0E-6,269:1.0E-6)[&label=46]:1.0E-6)[&label=45]:1.0E-6)[&label=32]:1.0E-6,(((((279:1.0E-6,258:4.61E-4)[&label=50]:1.0E-6,255:1.0E-6)[&label=34]:1.0E-6,281:1.0E-6)[&label=52]:1.0E-6,270:1.0E-6)[&label=66]:1.0E-6,('C. fructicola 1087':1.0E-6,'C. fructicola 3589':1.0E-6)[&label=78]:1.0E-6)[&label=67]:3.42E-4)[&label=54]:3.31E-4,'C. fructicola GM567':0.001496)[&label=40]:1.0E-6,((('C. fructicola Coll996':5.37E-4,'C. fructicola 7574':8.41E-4)[&label=13]:1.0E-6,'C. fructicola Coll1126':1.0E-6)[&label=11]:1.0E-6,'C. fructicola CollP1':1.0E-6)[&label=34]:1.0E-6)[&label=87]:0.00133)[&label=32]:1.0E-6,('C. nupharicola CBS472 96':8.99E-4,('C. nupharicola CBS469 96':1.0E-6,'C. nupharicola CBS470 96 T':1.0E-6)[&label=98]:8.88E-4)[&label=99]:0.004498)[&label=62]:6.3E-4,'C. noveboracense AFKH109 T':0.009176)[&label=96]:0.002265,(('C. hebeiense JZB330028 T':0.003561,'C. conoides CAUG17 T':0.007764)[&label=99]:0.003726,'C. aenigma ICMP18608 T':0.001143)[&label=99]:0.004383)[&label=95]:0.002758,(('C. viniferum GZAAS5 08608':8.59E-4,('C. viniferum CAUG27':1.0E-6,'C. viniferum GZAAS5 08601 T':0.002625)[&label=56]:0.00167)[&label=93]:0.005021,((55:4.47E-4,'C. musae CBS116870 T':0.005289)[&label=83]:4.61E-4,('C. musae CMM4423':1.0E-6,('C. musae CMM4445':1.0E-6,'C. musae CMM4422':7.26E-4)[&label=91]:0.001453)[&label=43]:5.28E-4)[&label=100]:0.012707)[&label=78]:0.001102)[&label=94]:0.010256)[&label=46]:0.003568,((((('C. salsolae CBS119296':1.0E-6,'C. salsolae ICMP19051 T':1.0E-6)[&label=100]:0.008131,('C. tainanense CBS143666 T':0.003486,'C. tainanense UOM1119':0.001452)[&label=100]:0.006025)[&label=100]:0.007493,((215:0.005479,(245:0.003559,(228:1.0E-6,217:1.0E-6)[&label=100]:0.002233)[&label=97]:0.001762)[&label=94]:4.34E-4,(((('C. siamense CMM4247':0.002133,(((110:1.0E-6,117:4.4E-4)[&label=30]:1.0E-6,(285:1.0E-6,249PT:1.0E-6)[&label=49]:1.0E-6)[&label=27]:1.0E-6,129:1.0E-6)[&label=42]:1.0E-6)[&label=51]:1.0E-6,252PT:1.0E-6)[&label=89]:0.002036,(((07:4.37E-4,43:1.0E-6)[&label=99]:0.002176,(39:1.0E-6,((49:8.92E-4,251PT:4.37E-4)[&label=70]:1.0E-6,(15:1.0E-6,122:1.0E-6)[&label=84]:8.65E-4)[&label=61]:0.001794)[&label=35]:1.0E-6)[&label=73]:8.93E-4,((24:1.0E-6,(203:1.0E-6,206:1.0E-6)[&label=67]:4.38E-4)[&label=94]:8.76E-4,(((284:1.0E-6,(242:4.63E-4,'C. siamense CMM4248':0.004552)[&label=42]:0.00131)[&label=41]:0.00127,248PT:8.86E-4)[&label=22]:0.001247,212:0.001394)[&label=11]:1.0E-6)[&label=13]:4.15E-4)[&label=37]:4.24E-4)[&label=77]:0.00104,((((('C. siamense CMM3777':7.77E-4,'C. siamense CBS133123':1.0E-6)[&label=35]:6.77E-4,(251:0.002659,(210:1.0E-6,211:8.89E-4)[&label=50]:4.41E-4)[&label=27]:1.0E-6)[&label=5]:1.0E-6,(((134:4.41E-4,230:1.0E-6)[&label=10]:1.0E-6,253:4.54E-4)[&label=10]:1.0E-6,252:4.43E-4)[&label=13]:4.35E-4)[&label=25]:1.0E-6,(237:0.001866,(('C. siamense CMM4244':7.3E-4,254:1.0E-6)[&label=51]:3.44E-4,205:4.42E-4)[&label=23]:1.0E-6)[&label=90]:0.001366)[&label=83]:0.001015,'C. siamense ICMP18578 T':0.002573)[&label=91]:0.001664)[&label=93]:0.001089)[&label=93]:0.002237)[&label=94]:0.004291,('C. makassarense CBS143664 T':0.009903,('C. australianum UMC002 T':0.003608,'C. queenslandicum ICMP1778 T':0.006609)[&label=100]:0.004168)[&label=100]:0.009594)[&label=82]:0.00186,((((118:9.06E-4,(('C. asianum CMM3758':0.001028,'C. asianum CMM3747':0.002078)[&label=9]:1.0E-6,'C. asianum CMM3793':0.002082)[&label=57]:0.001554)[&label=75]:9.1E-4,('C. asianum MTCC11678':1.0E-6,('C. asianum MTCC11676':1.0E-6,'C. asianum MTCC11680':1.0E-6)[&label=63]:1.0E-6)[&label=77]:0.001054)[&label=44]:1.0E-6,('C. asianum IMI313839':1.0E-6,'C. asianum ICMP18580 T':0.00226)[&label=76]:1.0E-6)[&label=100]:0.012059,(197:0.003634,(((('C. tropicale CBS124949 T':1.0E-6,149:1.0E-6)[&label=55]:1.0E-6,'C. tropicale CMM4243':1.0E-6)[&label=82]:1.0E-6,'C. tropicale CMM2999':1.0E-6)[&label=95]:0.001076,193:0.001754)[&label=100]:0.003951)[&label=100]:0.01086)[&label=72]:0.003029)[&label=71]:0.002065)[&label=100]:0.008699,('C. artocarpicola MFLUCC18 1167 T':0.002254,'C. endophytica MFLUCC130418 T':0.004404)[&label=100]:0.003044)[&label=100]:0.005724)[&label=99]:0.002977)[&label=99]:0.003952)[&label=98]:0.005495,((('C. grevileae CBS132879 T':8.16E-4,((((('C. theobromicola CMM4242':0.003014,((265:1.0E-6,256:0.001992)[&label=90]:0.002148,'C. theobromicola CBS142 31':0.002195)[&label=33]:1.0E-6)[&label=31]:0.002254,'C. theobromicola COUFAL0039':0.001741)[&label=11]:0.00196,(('C. theobromicola COUFAL2200':0.001748,'C. theobromicola COUFAL0037':1.0E-6)[&label=46]:8.72E-4,('C. theobromicola CBS124945 T':1.0E-6,'C. theobromicola GJSB1160843':1.0E-6)[&label=100]:0.004463)[&label=2]:1.0E-6)[&label=85]:0.003266,'C. pseudotheobromicola MFLUCC181602':0.00332)[&label=83]:0.001635,'C. grossum CAUG7 T':1.0E-6)[&label=63]:1.0E-6)[&label=100]:0.071463,'C. xanthorrhoeae CBS127831 T':0.027231)[&label=65]:0.00338,'C. horii ICMP10492 T':0.047956)[&label=39]:5.92E-4)[&label=50]:0.005957)[&label=100]:0.12076,('C. chrysanthemi IMI364540 T':0.00773,(('C. wanningense CGMCC3 18936 T':0.003878,('C. cairnsense BRIP63643':1.0E-6,'C. cairnsense RIP63642 T':1.0E-6)[&label=100]:0.005923)[&label=89]:0.004685,((((((('C. lupini CBS109226':1.0E-6,'C. lupini CBS109225 T':1.0E-6)[&label=100]:0.00679,'C. cuscutae IMI304802 T':0.005941)[&label=75]:1.0E-6,((((((40:7.59E-4,'C. melonis CBS134730':1.0E-6)[&label=19]:1.0E-6,'C. melonis Col20':1.0E-6)[&label=23]:0.001519,'C. melonis CBS159 84 T':0.001686)[&label=13]:0.003074,(('C. abscissum IMI504890':1.0E-6,'C. abscissum OCO ARC. 4':1.0E-6)[&label=76]:1.0E-6,(('C. abscissum COAD1877 T':1.0E-6,'C. abscissum COAD1876':1.0E-6)[&label=100]:1.0E-6,'C. abscissum CBS134727':1.0E-6)[&label=34]:1.0E-6)[&label=97]:0.003414)[&label=0]:6.56E-4,('C. tamarilloi CBS129956':1.0E-6,'C. tamarilloi CBS129814 T':1.0E-6)[&label=100]:0.005083)[&label=0]:1.0E-6,(('C. costaricense CBS211 78':0.001682,'C. costaricense CBS330 75 T':1.0E-6)[&label=90]:0.004218,((('C. paranaense CBS134729 T':8.42E-4,'C. paranaense IMI384185':1.0E-6)[&label=97]:0.002535,(DF13:1.0E-6,'C. paranaense CBS134728':8.36E-4)[&label=21]:1.0E-6)[&label=22]:0.001358,('C. limetticola CBS114 14 T':0.001697,(DF15:1.0E-6,(36:6.7E-4,(80:1.0E-6,(32:1.0E-6,(41:1.0E-6,(30:1.0E-6,8:1.0E-6)[&label=86]:1.0E-6)[&label=48]:1.0E-6)[&label=85]:0.001334)[&label=51]:6.67E-4)[&label=16]:1.0E-6)[&label=4]:0.001778)[&label=3]:8.83E-4)[&label=1]:1.0E-6)[&label=4]:0.001332)[&label=33]:7.09E-4)[&label=98]:0.005571,(((((('C. salicis CBS607 94 T':0.010307,((('C. acerbum CBS128530 T':0.00426,'C. rhombiforme CBS129953 T':0.006015)[&label=100]:0.006832,('C. phormii CBS118194 T':1.0E-6,('C. kinghornii CBS198 35 T':0.005103,'C. arboricola CBS144795 T':0.013676)[&label=40]:1.0E-6)[&label=39]:1.0E-6)[&label=50]:7.99E-4,('C. australe CBS116478 T':1.0E-6,'C. australe CBS131325':8.43E-4)[&label=100]:0.010349)[&label=59]:0.001797)[&label=61]:0.003047,(('C. godetiae CBS133 44 T':0.004512,'C. lauri MFLUCC17 0205 T':0.007453)[&label=73]:0.005969,('C. pyricola CBS128531 T':0.005937,'C. johnstonii CBS128532 T':0.001691)[&label=100]:0.001957)[&label=86]:0.007734)[&label=53]:0.003306,'C. roseum CBS145754 T':0.022934)[&label=29]:0.002841,'C. kniphofiae CBS143496 T':0.050934)[&label=84]:0.019884,'C. fioriniae CBS128517 T':0.017854)[&label=71]:0.005043,('C. acutatum CBS112996 T':0.002544,'C. acutatum CBS127545':8.42E-4)[&label=100]:0.015232)[&label=78]:0.004999)[&label=69]:0.00287,(('C. laticiphilum CBS112989 T':0.007593,(('C. javanense CBS144963 T':0.007757,'C. brisbanense CBS292 67 T':0.005041)[&label=91]:0.004213,('C. miaoliense NTUCC20 001 1 T':0.018973,'C. sloanei IMI364297 T':5.83E-4)[&label=27]:0.001159)[&label=16]:0.001694)[&label=6]:1.0E-6,('C. indonesiense CBS127551 T':0.003399,('C. paxtonii IMI165753 T':0.0025,'C. simmondsii CBS 122122 T':0.009432)[&label=81]:0.005956)[&label=41]:0.001672)[&label=24]:0.002445)[&label=27]:0.00175,('C. cosmi CBS853 73 T':0.002559,'C. walleri CBS125472 T':0.00337)[&label=84]:0.00171)[&label=7]:6.99E-4,('C. carthami SAPA100011 T':0.006035,(('C. guajave IMI350839 T':0.001679,('C. scovillei CBS126529 T':0.001653,'C. eriobotryae GLMC1935 T':0.005272)[&label=90]:0.004248)[&label=45]:0.002084,(((12:1.0E-6,(DF3:1.0E-6,250PT:1.0E-6)[&label=64]:1.0E-6)[&label=60]:1.0E-6,(('C. nymphaeae IMI370491':1.0E-6,(120:1.0E-6,202:6.75E-4)[&label=68]:6.63E-4)[&label=47]:1.0E-6,9:1.0E-6)[&label=47]:1.0E-6)[&label=67]:8.27E-4,'C. nymphaeae CBS515 78 T':0.001693)[&label=99]:0.005866)[&label=7]:1.0E-6)[&label=6]:6.67E-4)[&label=15]:9.82E-4)[&label=23]:0.002608)[&label=100]:0.216184)[&label=65]:0.03318)[&label=89]:0.029263)[&label=100]:0.051971,'C. bromeliacearum LC0951 T':0.097462)[&label=89]:0.00838,('C. dacrycarpi CBS130241 T':0.046465,'C. constrictum CBS128504 T':0.059979)[&label=100]:0.02763)[&label=100]:0.026681,('C. brasiliense CBS128501 T':0.010222,('C. hippeastri CBS125376 T':0.017886,('C. parsonsiae CBS128525 T':0.002515,'C. condaoense CBS134299':0.009562)[&label=100]:0.003273)[&label=58]:0.001875)[&label=100]:0.026101)[&label=58]:0.005323)[&label=47]:1.0E-6,(('C. cliviigenum CBS146825':0.012221,(('C. chamaedoreae LC13868 T':0.017201,(('C. colombiense CBS129818 T':0.011008,'C. beeveri CBS128527 T':0.006075)[&label=85]:0.001603,'C. brassicicola CBS101059 T':0.015228)[&label=97]:0.005404)[&label=45]:4.87E-4,('C. cymbidicola IMI347923 T':0.002493,(('C. boninense CBS123755 T':0.005039,'C. pseudoboninense CGMCC3 19755 T':0.002898)[&label=50]:0.001939,(('C. torulosum CBS128544 T':0.00585,'C. philodendricola CGMCC3 19290 T':0.006641)[&label=17]:1.0E-6,'C. oncidii CBS129828 T':0.003327)[&label=36]:8.17E-4)[&label=18]:1.0E-6)[&label=66]:0.007045)[&label=36]:0.001374)[&label=65]:0.007013,'C. doitungense MFLU14 0128':0.020618)[&label=92]:0.011789)[&label=70]:0.004416,'C. feijoicola CBS144633':0.028454)[&label=79]:0.001916)[&label=67]:0.004918,'C. chongqingense CS0612 T':0.014812)[&label=61]:0.004113,'C. annellatum CBS129826 T':0.007554)[&label=25]:8.51E-4)[&label=100]:0.003237)[&label=73]:1.0E-6)[&label=57]:0.001314,((192:1.0E-6,191:0.00132)[&label=48]:1.0E-6,(01:0.001997,DF01:0.001997)[&label=60]:6.55E-4)[&label=69]:0.001971)[&label=90]:1.0E-6,'C. karstii COUFAL0005':1.0E-6);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="Arial";
+	set branchLabels.fontSize=10;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=593;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="Arial";
+	set nodeLabels.fontSize=10;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute=null;
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute=null;
+	set nodeShapeInternal.colourAttribute=null;
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="Arial";
+	set tipLabels.fontSize=12;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="Midpoint";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
